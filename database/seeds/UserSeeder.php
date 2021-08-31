@@ -22,6 +22,6 @@ class UserSeeder extends Seeder
         );
 */                
         
-        factory(\App\User::class, 40)->create();
+        factory(\App\User::class, 2)->create();
     }
 }
