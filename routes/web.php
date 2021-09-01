@@ -15,3 +15,11 @@ Route::get('/', function () {
     $helloWorld = 'Hello World';
     return view('welcome', compact('helloWorld'));
 });
+
+
+Route::get('/model',function(){
+    $products= \App\Product::all(); //select * from products
+
+    return $products;
+
+});

@@ -8,3 +8,4 @@ class Store extends Model
 {
     //
 }
+
