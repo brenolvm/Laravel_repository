@@ -10,13 +10,13 @@ class CreateProductsTable extends Migration
      * Run the migrations.
      *
      * @return void
-     
+     */
     public function up()
     {
         Schema::create('products', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('store_id');
-            $table->string('name')
+            $table->string('name');
             $table->string('description');
             $table->text('body');
             $table->decimal('price',10,2);
