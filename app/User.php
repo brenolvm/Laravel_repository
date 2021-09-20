@@ -42,9 +42,4 @@ class User extends Authenticatable
     {
         return $this->hasOne(Store::class);
     }
-
-    public function store()
-    {
-        return $this->belongsTo(Store::class);
-    }
 }
