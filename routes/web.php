@@ -56,12 +56,24 @@ Route::get('/model',function(){
 
     //Pegar os produtos de uma loja
 
-    $loja = \App\Store::find(1);
+   // $loja = \App\Store::find(1);
     //dd($loja->products()); //$loja->products()->where('id',1)->get();
 
     //pegar as lojas de uma categoria de uma loja?
-    $categoria=\App\Category::find(1);
-    $categoria->products;
+  //  $categoria=\App\Category::find(1);
+   // $categoria->products;
+
+
+    //Criar uma loja para um usuário
+    
+
+    //Criar um produto para uma loja
+
+    //Criar uma categoria
+
+    //Adicionar um produto para uma categoria ou vice-versa
+
+
 
     return \App\User::all();
 
