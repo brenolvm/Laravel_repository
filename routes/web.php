@@ -18,6 +18,7 @@ Route::get('/', function () {
 
 
 Route::get('/model',function(){
+
     //$products= \App\Product::all(); //select * from products
 
     //$user = new \App\User();
@@ -122,3 +123,13 @@ Route::get('/model',function(){
     //return $product->categories;
 
 });
+
+Route::get('/admin/stores', 'Admin\\StoreController@index');
+
+
+//Route::get
+//Route::post
+//Route::put
+//Route::patch
+//Route::delete
+//Route::options
