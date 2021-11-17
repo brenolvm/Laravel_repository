@@ -9,9 +9,9 @@ class StoreController extends Controller
 {
     public function index()
     {
-        $stores = \App\Store::all();
+        $store = \App\Store::all();
 
-        return $stores;
+        return $store;
 
     }
 }
