@@ -122,3 +122,11 @@ Route::get('/model',function(){
     //return $product->categories;
 
 });
+//Route::get - Usado para recuperação
+//Route::post - Usado para criação 
+//Route::put - Usado para atualização
+//Route::patch - Usado para atualização
+//Route::delete - Usado para remoção
+//Route::options - Usado para retornar quais cabeçalhos aquela rota específica corresponde
+
+Route::get('/admin/stores', 'Admin\\StoreController@index');
